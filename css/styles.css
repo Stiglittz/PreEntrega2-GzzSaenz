@@ -10,6 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* ---Header--- */
 .menu {
     list-style: none;
     display: flex;
@@ -23,7 +24,7 @@ body {
 }
 
 .menu li:hover {
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(12, 0, 0, 0.5);
 }
 
 .submenu {
@@ -48,6 +49,7 @@ body {
     padding: 15px 15px 15px 20px;
 }
 
+/* ---Main--- */
 main {
     width: 100%;
     padding: 40px;
@@ -171,7 +173,7 @@ main section p {
   }
 
 
-
+/* ---Footer--- */
 .footerVanilla {
     width: 100%;
     background-color:rgb(70, 70, 70);
@@ -234,4 +236,18 @@ main section p {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 300;
+}
+
+@media (max-width: 767px) {
+  .centerbtn {
+    display: flex;
+    justify-content: center;
+  }
+  .icons {
+    text-align: center;
+  }
+
+  footer {
+    height: 100px;
+  }
 }
