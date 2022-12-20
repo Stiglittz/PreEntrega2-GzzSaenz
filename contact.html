@@ -16,40 +16,34 @@
     </head>
     <body>
         <header>    
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-secondary">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Navbar</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-5">
+                          <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-5">
+                          <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown mx-5">
+                          <a class="nav-link dropdown-toggle" href="./projects.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./projects/flexbox-site.html">Flexbox-site</a></li>
+                            <li><a class="dropdown-item" href="./projects/batata.html">Batata-web</a></li>
+                            <li><a class="dropdown-item" href="./projects/crypto.html">Cryptomonedas</a></li>
+                            <li><a class="dropdown-item" href="./projects/ecommerce.html">Ecommerce</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item mx-5">
+                          <a class="nav-link" aria-current="page" href="./contact.html">Contact</a>
+                        </li>
+                    </div>
                 </div>
               </nav>
         </header>
@@ -79,11 +73,11 @@
     <footer class="container-fluid bg-secondary fixed-bottom">
         <div class="row pt-4 g-3">
             <div class="icons col-md-4">
-                <a href="https://twitter.com"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABF0lEQVQ4T8WUAQ3CMBRENweggOEACUMB4GAOAAWAAkABSAAFTAIOmIRJ4B5Zl66020iW8JMLa/t7vfv9JY4GjHhAruivZKmcAOImPIVRNS5tZUtNJsIpYH2j+Z212RDO9LGC2CYj+Sjkwtwh5PSXQ2RSCn0chKtNlmniUmUg/0xCNU71+wgoxsmWNZssdDq1KQUO8wUWyWmQ7TVeCNTgl5gquXDJ2qyEyFE8Notun3EBXETfyJVYX5ZLlmiRS0BlV6CKekH4Cd8L4Nb6kNW32EbGGlbXAkp9QetgD3V1+JTRInR6JpinYu+5akBfNYhsm2zCGvXyEZDLZjo99Ny8NeON0muTSg4kdwFrX2q6bHqL1Gdy0P+zN5tHLRQ+06GTAAAAAElFTkSuQmCC"/></a>
+                <a href="https://twitter.com"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABhElEQVQ4T8WUQU7CQBSG501iu9UTiEuLJngDOIGwEZbcQFjaaoCouARPAMuim3oCuIEkal3iEbpEcBjfa0ptoQMsmjhJk868me/9r++fAktxQIos9n+wyu1bHiuhhwnOnWcrOy42X/dp7jTPvFDZRdstwmKRGVyfdJNKL9+91xhAAw/4h2lIZOA8JxgrETiE0WYA6OCBkW0ahSiQsut72iQKisS/8L1lW9l+CKvcf1RxsRdkpCyPtIHmfnmcD5MUS4DuwDTqFAthquxBKR7upWRrYwFQejINJwbD7E3J+Tl9g6RDyjXOj+yrYyr1T9mmUlQgVO0NrOzBMh7zWbntdkDK2s7KVpoVg1UePjNMyh4++W1AUoVWKtk3p6NEZX7n2u5wJ1iki0oYBQLPXeJrJtEOjI2/57MCuT4aX7ubvkU0vYHqqgqT9qfzWX0VFHaTAJqm5/Hj9xQAujoeJmiprlvMGku5dEe5EDl0/CGtocM9EOJlKn7GSWo2lrmti5viqf7PfgHs9ZAUk2y5CAAAAABJRU5ErkJggg=="/></a>
 
-                <a href="https://www.facebook.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABR0lEQVQ4T62U4VECQQxGoQOswKMD7QA6gA6gArUCsQLpQDpQK+A6ACvwOpAS/B6zuQlxd7kfZibDTZJ7+yUXdjz6RxsPYE1U08j5bWv1JRgvLuQPDmScDz18yTcRnIPdqeg5wWpCjkou5Z0VRRjtHFJLOdApk7tXDPAowvaKzTIUitdJBUBqqMVQNo2wRwVeC331p6e8hxF6km+9sncFGHo0VAHDmOebe7Za1N542I8CfMVorQLzFCwdSLqHcSKDz9lQ2NyU5WA7kRl6znLzXRqM9mjTWw3G3Fahfupn9q1k4wo6Pdu2A8ZQdCufyenGjNoLWGk1WhVe+wAvqtnEpY3qOPkaDFWszinCkG+bbS3UYOwXH4lx/Pk7EWMW7FOTaCUYigCRP1vtClopzxXES35mHPIp38pR1tuQyxGl51tBxgpdADzsF1X/RNQ86C5NAAAAAElFTkSuQmCC"/></a>
+                <a href="https://www.facebook.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAA20lEQVQ4T2NkoCJgpKJZDEQbFtF82eE/I6MByHJGRsYPK6q1F6A7hCjDgAY1MDAx1cM0/2dg+LCyWluQZMPC2q4FMP3/vx5ZI9mGhbdcKQB6qx9kGNCbE37++tm4ocHwA7awJujN8LZr/Yz//xeANP9lYDBcXa19AVek0cewiNar94EuUMDmCmCYXQBGgCHREYDPMKAhC4BJI5Fow0BhxfD/vwIwHEBpC+JCRsYD/////wAUP7iyRmcC0YbBFA6+CBh1Gfk5AJzR//4FFz0//v6ZgCtfglMONQtHAH73gRTUlouvAAAAAElFTkSuQmCC"/></a>
 
-                <a href="https://www.instagram.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABKElEQVQ4T7WUgRHBQBBFqYAS6IAOqAAd0AEViApQAR2gAjqghKiAEvyX2WMlEckMN7NzN8nu2/27udRrP1z1H7Jqn2AdJWmZNXMSxnp2MXu+TsMI3MiGJSsG2Jfd8U/DdhVAId/JgG8wpJ1LVrQwv7ntbe2xr2xsEj2P8teyvevhUmdg9I2WsGaylYdN9QDHsABNZMjoGWylPU8B8KgIhgPBRwOQhARIQh7Jw8rAInMKDiMdwnRdXCIpljGs0jBGDswHEYx0Pgk/rK+V5cmkoq5JDJMkwdee4UQgVYytyq32low++puRgfHVpyUBZAgHa87AgV3LEulbP00y3bxHhTPD2v/tOlFI1Yt+UgwSY4I//YLoH2Ca3ciRe9UzQECSP0YRrEK7Xq4PzVpCFAXkzOoAAAAASUVORK5CYII="/></a>
+                <a href="https://www.instagram.com/"><img class="iconWobble" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAACA0lEQVQ4T61US1LCQBDtSQTdiScwLgWtghMoJxAWCjvlBOJS0CoohS16AnAHuhBPADcAS2FLPAEs+UjG1zGD4acuSFWqMpOe1/36vR5BK3zECrFoIdhxrhUUQhjCsgwhpc+dUArRk5pmSinNp3Sg6f43BRbJNHwbHm8BAWeSqIefvSWVG/a+EPX+cBCtZkJ23BRYLNd6xp5hESVGo6GpghYBxm/eDknTigA0yyl/eAqMqelEDbKscPl6v/5bLwGUkbq+iVbcI74D0J3y5a45qSyeazG1QiUd2FJANm19LUm6foAe9dDDVyTKMBgAtsvpQAJsuiRltnK1dzcBi92+J1HyKcBCDMZA6x5vEZ+HeOtO/zhhU8VwHIrooLoHTrIUzKaiaedQL/GY8ldVAgjUxeEsH+Y9VNZgISop/8UPze/DRyqrIwZhHXX3L5ZvF3AoqJr+L7B4vl3jPs2CgVYRVIOupH9XpmjCJmFlTqePHQhx/ytNFgBSn0OhHUWLKTAlrEvsfKh2hm9zMBqGlQcXCnCSb0cwOkW3NWy12Abf1vChopf++PPObWYbjCiLIkoTAZxR6o6JQrMzt8zAzhTULCGirPjcODEtAEb/AuSJ0YhqaE1TzefcoLNRsRnhatigS6oyEONjf+FN8CjNDbo6aPfPuX54BucALesD1Oqzl8FKL8cvBQ0oI7c9bboAAAAASUVORK5CYII="/></a>
             </div>
         <div class="col-md-2 text-center">
             <a class="contact" href="contact.html">Work whit me</a>
