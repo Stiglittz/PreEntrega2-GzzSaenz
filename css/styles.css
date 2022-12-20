@@ -96,7 +96,7 @@ main section p {
     }
   }
 
-  .button {
+  .buttonAnimation {
     min-width: 300px;
     min-height: 60px;
     font-family: 'Nunito', sans-serif;
@@ -117,7 +117,7 @@ main section p {
     padding: 10px;
     }
   
-  button::before {
+  .buttonAnimation::before {
   content: '';
     border-radius: 1000px;
     min-width: calc(300px + 12px);
@@ -132,16 +132,16 @@ main section p {
     transition: all .3s ease-in-out 0s;
   }
   
-  .button:hover, .button:focus {
+  .buttonAnimation:hover, .button:focus {
     color: #313133;
     transform: translateY(-6px);
   }
   
-  button:hover::before, button:focus::before {
+  .buttonAnimation:hover::before, button:focus::before {
     opacity: 1;
   }
   
-  button::after {
+  .buttonAnimation::after {
     content: '';
     width: 30px; height: 30px;
     border-radius: 100%;
@@ -154,7 +154,7 @@ main section p {
     animation: ring 1.5s infinite;
   }
   
-  button:hover::after, button:focus::after {
+  .buttonAnimation:hover::after, button:focus::after {
     animation: none;
     display: none;
   }
@@ -246,7 +246,6 @@ main section p {
   .icons {
     text-align: center;
   }
-
   footer {
     height: 100px;
   }
