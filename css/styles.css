@@ -199,6 +199,10 @@ main section p {
     margin-top: auto;
 }
 
+.footerBs {
+  height: 150px;
+}
+
 
 .bg-secondary {
   background-color: #313133 !important; 
